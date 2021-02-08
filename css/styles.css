@@ -8,11 +8,15 @@ body{
 }
 
 
-header > .container{
+header .container{
   background-color: #eee;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   padding: 24px;
+  width: auto;
+  margin: 0 auto;
+  padding: 24px;
+  line-height: 10px;
 }
 
 .hd1{
@@ -24,6 +28,7 @@ header > .container{
 }
 
 .hd1 img{
+  /* background-color: aqua; */
   border-radius: 50%;
   border-width: 4px;
   border-style: solid;
@@ -32,26 +37,44 @@ header > .container{
 
 .hd2{
   /* background-color: antiquewhite; */
+  /* flex: 2;
+  margin: auto;
+  padding: 0; */
   flex: 2;
   margin: auto;
   padding: 0;
+  text-align: center;
+  font-size: 20px;
 }
 .hd3{
-  width: 600px;
+  /* width: 600px; */
   /* background-color: aliceblue; */
-  flex: 1;
-  margin: auto 30px;
-  padding-left: auto;
+  /* flex: 1;
+  text-align: center;
+  margin: auto; */
+  /* padding-left: auto; */
   font-weight: normal;
   font-size: 12px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }
 .hd3 ul li{
   list-style-type: none;
   margin: 12px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }
 .hd3 ul{
   display: flex;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }
+/* .page{
+  display: flex;
+} */
 
 .btn{
   text-decoration: none;
@@ -75,7 +98,7 @@ header > .container{
 }
 .features > h1{
   text-align: center;
-  font-size: 48px;
+  font-size: 32px;
   margin: 65px 32px;
   /* margin: auto; */
 }
@@ -100,7 +123,7 @@ header > .container{
 } */
 
 .features .container{
-  margin: 40px 60px 0 60px;
+  margin: 20px 10px 20px 10px;
 }
 section .info{
   position: relative;
@@ -120,7 +143,7 @@ section .info h1{
   position: relative;
   z-index: 10;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .features p{
@@ -140,7 +163,7 @@ section .info h1{
 }
 
 .members > h1{
-  font-size: 48px;
+  font-size: 32px;
   text-align: center;
   padding: 64px 0px 0px;
   margin: 20px 0px 0px;
@@ -214,17 +237,29 @@ footer{
   header .pic{
     width: 40%;
   }
-
+.hd1{
+  flex: 1;
+}
+.hd2{
+  flex: 2;
+}
+.hd3{
+  flex: 3;
+}
   .features h1{
     text-align: center;
     font-size: 24px;
     margin: auto;
     padding: auto;
   }
+
   .features > h1{
-    font-size: 48px;
+    text-align: center;
+    font-size: 32px;
     margin: 65px 32px;
+    /* margin: auto; */
   }
+
   .img1{
     margin-right: auto;
     margin-left: 20px;
