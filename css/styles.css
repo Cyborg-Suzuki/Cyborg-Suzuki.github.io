@@ -12,10 +12,9 @@ header .container{
   background-color: #eee;
   /* display: flex; */
   justify-content: center;
-  padding: 24px;
+  padding-top: 16px;
   width: auto;
-  margin: 0 auto;
-  padding: 24px;
+  margin: auto;
   line-height: 10px;
 }
 
@@ -47,16 +46,10 @@ header .container{
   font-size: 20px;
 }
 .hd3{
-  /* width: 600px; */
-  /* background-color: aliceblue; */
-  /* flex: 1;
-  text-align: center;
-  margin: auto; */
-  /* padding-left: auto; */
   font-weight: normal;
   font-size: 12px;
   margin: auto;
-  padding: 10px;
+  padding: 0;
   text-align: center;
 }
 .hd3 ul li{
@@ -128,7 +121,8 @@ header .container{
 section .info{
   position: relative;
   z-index: 10;
-  margin-left: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   font-size: 14px;
   line-height: 1.9;
 }
@@ -173,6 +167,8 @@ section .info h1{
   padding: 0px;
   margin: 20px 0px 64px;
   font-weight: normal;
+  position: relative;
+  z-index: 20;
 }
 
 .members ul{
@@ -193,17 +189,25 @@ section .info h1{
 
 .members li{
   padding-bottom: 64px;
+  position: relative;
+  z-index: 20;
+}
+.container1{
+  position: relative;
+  z-index: 20;
 }
 
 .call-to-action{
   background: #f59a00;
-  color: #fff;
+  color: #333;
   text-align: center;
   padding: 40px 0;
 }
 
 .call-to-action h1{
   font-weight: normal;
+  position: relative;
+  z-index: 20;
 }
 .call-to-action h2{
   text-align: right;
@@ -222,11 +226,13 @@ footer{
   text-align: center;
 }
 
+
 @media (min-width:860px){
   header .container{
     display: flex;
     width: auto;
-    margin: 0 auto;
+    margin: auto;
+    padding: 10px;
   }
 
   header .info{
@@ -283,7 +289,7 @@ footer{
     width: calc(50% - 30px);
     line-height: 60px;
     padding: auto;
-    margin: auto;
+    margin-left: auto;
   }
 
   .members ul{
