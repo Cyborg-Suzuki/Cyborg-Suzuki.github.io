@@ -201,7 +201,7 @@ section .info h1{
   background: #f59a00;
   color: #333;
   text-align: center;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 .call-to-action h1{
@@ -212,7 +212,8 @@ section .info h1{
 .call-to-action h2{
   text-align: right;
   margin-right: 36px;
-  padding-top: 32px 0px;
+  padding-top: 32px 0;
+  margin-bottom: 0;
 }
 
 .call-to-action .btn{
@@ -224,6 +225,13 @@ footer{
   background: #323135;
   color: #98969c;
   text-align: center;
+}
+.contact{
+margin: auto;
+text-align: center;
+position: relative;
+z-index: 30;
+}
 }
 
 
@@ -352,6 +360,10 @@ line-height: 0.8em;
   position: relative;
   z-index: 20;
 }
+.contact{
+  margin: auto;
+  text-align: center;
+  }
 
 }
 
