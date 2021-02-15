@@ -121,11 +121,14 @@ header .container{
 section .info{
   position: relative;
   z-index: 10;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 25px;
   font-size: 14px;
   line-height: 1.9;
+  padding-left: auto;
 }
+
+
 section .item2{
   position: relative;
   z-index: 10;
@@ -232,7 +235,6 @@ text-align: center;
 position: relative;
 z-index: 30;
 }
-}
 
 
 @media (min-width:860px){
@@ -298,6 +300,9 @@ z-index: 30;
     line-height: 60px;
     padding: auto;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .members ul{
@@ -313,13 +318,16 @@ z-index: 30;
   }
 }
 
-/* .info > h1{
+.info > h1{
   font-size: 24px;
-  margin: auto;
+  margin-bottom: 36px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   line-height: 60px;
   text-align: center;
-} */
+}
 
 
 .item{
@@ -365,7 +373,6 @@ line-height: 0.8em;
   text-align: center;
   }
 
-}
 
 @media (min-hight:250px){
   .img1{
